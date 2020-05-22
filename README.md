@@ -1,2 +1,0 @@
-# datasciencecoursera
-repository for coursera
