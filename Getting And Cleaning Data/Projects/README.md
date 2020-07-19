@@ -22,3 +22,7 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive activity names.
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject
 The run_analysis.R file achieves all the requirements chronologically.
+
+**The Raw Data**
+
+The raw data used in this project and it's full description can be found here.
