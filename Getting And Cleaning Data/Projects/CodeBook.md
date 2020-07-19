@@ -1,3 +1,4 @@
+
 Getting and Cleaning Data Project
 
 Data Set Information
@@ -5,9 +6,28 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
+Attribute Information
+
 For each record in the dataset it is provided:
+
 1.	Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 2.	Triaxial Angular velocity from the gyroscope.
 3.	A 561-feature vector with time and frequency domain variables.
 4.	Its activity label.
 5.	An identifier of the subject who carried out the experiment.
+
+Modifications
+
+The original data was modifies by
+
+1. Merging the training and the test sets to create one data set.
+2. Extracting only the measurements on the mean and standard deviation for each measurement.
+3. Useing descriptive activity names to name the activities in the data set
+4. Appropriately labeling the data set with descriptive variable names.
+5. Creating a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+
+
+
+
