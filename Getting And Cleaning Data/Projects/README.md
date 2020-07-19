@@ -25,4 +25,4 @@ The run_analysis.R file achieves all the requirements chronologically.
 
 **The Raw Data**
 
-The raw data used in this project and it's full description can be found here.
+The raw data used in this project and it's full description can be found here:(http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
