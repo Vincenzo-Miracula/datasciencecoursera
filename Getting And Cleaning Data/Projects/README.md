@@ -1,4 +1,4 @@
-*__Getting and Cleaning Data : Project__*
+*__Getting and Cleaning Data: Project__*
 
 
 **Introduction**
