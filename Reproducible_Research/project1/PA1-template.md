@@ -153,7 +153,7 @@ g+geom_histogram(boundary=0, binwidth=2500, col="darkgreen", fill="lightgreen")+
 
     ## Warning: Removed 8 rows containing non-finite values (stat_bin).
 
-![](PA1-template_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![https://github.com/Vincenzo-Miracula/datasciencecoursera/blob/master/Reproducible_Research/project1/PA1_template_files/figure-markdown_github/unnamed-chunk-3-1.png](PA1-template_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
 1.  Calculate and report the mean and median of the total number of
     steps taken per day
