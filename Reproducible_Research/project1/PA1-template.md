@@ -189,7 +189,7 @@ h <- ggplot(StepsPerTime, aes(time, steps))
 h+geom_line(col="brown")+ggtitle("Average steps per time interval")+xlab("Time")+ylab("Steps")+theme(plot.title = element_text(face="bold", size=12))
 ```
 
-![](PA1-template_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![alt text](https://github.com/Vincenzo-Miracula/datasciencecoursera/blob/master/Reproducible_Research/project1/PA1_template_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
 1.  Which 5-minute interval, on average across all the days in the
     dataset, contains the maximum number of steps?
@@ -271,7 +271,7 @@ g <- ggplot(StepsPerDayFull, aes(Steps))
 g+geom_histogram(boundary=0, binwidth=2500, col="darkblue", fill="lightblue")+ggtitle("Histogram of steps per day")+xlab("Steps")+ylab("Frequency")+theme(plot.title = element_text(face="bold", size=12))+scale_x_continuous(breaks=seq(0,25000,2500))+scale_y_continuous(breaks=seq(0,26,2))
 ```
 
-![](PA1-template_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![alt text](https://github.com/Vincenzo-Miracula/datasciencecoursera/blob/master/Reproducible_Research/project1/PA1_template_files/figure-markdown_github/unnamed-chunk-10-1.png)
 
 ``` r
 # Mean
@@ -338,4 +338,4 @@ j <- ggplot(StepsPerTimeDT, aes(time, steps))
 j+geom_line(col="darkred")+ggtitle("Average steps per time interval: weekdays vs. weekends")+xlab("Time")+ylab("Steps")+theme(plot.title = element_text(face="bold", size=12))+facet_grid(DayType ~ .)
 ```
 
-![](PA1-template_files/figure-markdown_github/unnamed-chunk-12-1.png)
+![alt text](https://github.com/Vincenzo-Miracula/datasciencecoursera/blob/master/Reproducible_Research/project1/PA1_template_files/figure-markdown_github/unnamed-chunk-12-1.png)
